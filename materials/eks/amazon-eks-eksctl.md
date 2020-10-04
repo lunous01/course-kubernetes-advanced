@@ -1,8 +1,8 @@
 eksctl로 Amazon EKS 클러스터 배포 및 사용
 ------------------------------------
 
-작성일자: 2020-07-31
-수정일자: YYYY-MM-DD
+작성일자: 2020-07-31  
+수정일자: 2020-09-25
 
 # 0. eksctl 이란?
 AWS CloudFormation을 이용하여 Amazon EKS를 배포 및 관리하는 도구
@@ -169,6 +169,7 @@ IAM --> 사용자 --> 사용자 추가
         }
     ]
 }
+```
 
 ### 정책생성
 IAM --> 정책 --> 정책 생성 --> JSON
@@ -516,7 +517,7 @@ metadata:
 ```
 
 # 참조 사이트
-https://eksctl.io
-https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html
-https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/metrics-server.html
-https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/alb-ingress.html
+https://eksctl.io  
+https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html  
+https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/metrics-server.html  
+https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/alb-ingress.html  
